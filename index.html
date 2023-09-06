@@ -4,20 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Come on, Barbie! Let's go party!</title>
-    <link rel="icon" href="images/Barbie_Logo.svg" type="image/x-icon"/>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Barbie_Logo.svg/1200px-Barbie_Logo.svg.png?20220806154326" type="image/x-icon"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mali&display=swap" rel="stylesheet">
+<style>
+    body {
+    padding-top: 60px;
+    font-family: 'Mali', cursive;
+    color: #e0218a;
+  }
+
+img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  h1 {
+    padding-top: 55px;
+  }
+
+.custom-toggler.navbar-toggler {
+    border-color: #e0218a;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(224, 33, 138)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.container {
+    text-align: center;
+}
+
+.carousel {
+    max-width: 75%;
+    margin: auto;
+}
+</style>
     </head>
 <body>
-    <!-- ! Title -->
+    <!-- ! Navbar -->
     <section id="title">
         <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="https://www.barbie-themovie.com/">
-                    <img src="./images/Barbie_Logo.svg" alt="Barbie logo" width="70px">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Barbie_Logo.svg/1200px-Barbie_Logo.svg.png?20220806154326" alt="Barbie logo" width="70px">
                 </a>
                 <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: #e0218a">
                     <span class="navbar-toggler-icon"></span>
@@ -33,6 +66,9 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#info">Info</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="buy-tickets" href="">Buy Tickets</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -41,7 +77,7 @@
     <!-- ! Features -->
     <section id="features">
         <div class="features">
-            <img src="./images/barbie-ken.jpg" alt="Barbie and Ken">
+            <img src="https://images2.alphacoders.com/132/1320904.jpg" alt="Barbie and Ken">
         </div>
     </section>
     <!-- ! Cast -->
@@ -51,76 +87,76 @@
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./images/cast/img1.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img1.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img2.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img2.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img3.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img3.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img4.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img4.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img5.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img5.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img6.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img6.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img7.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img7.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img8.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img8.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img9.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img9.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img10.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img10.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img11.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img11.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img12.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img12.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img13.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img13.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img14.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img14.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img15.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img15.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img16.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img16.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img17.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img17.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img18.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img18.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img19.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img19.jpg" class="d-block w-100" alt="Barbie cast"">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img20.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img20.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img21.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img21.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img22.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img22.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img24.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img23.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
           <div class="carousel-item">
-            <img src="./images/cast/img24.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.barbie-themovie.com/images/gallery/img24.jpg" class="d-block w-100" alt="Barbie cast">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -138,7 +174,7 @@
     <section class="info">
         <div class="container">
             <h1 id="info">Movie Info</h1>
-            <img src="./images/tt_small.png" alt="Barbie theatres release">
+            <img src="https://www.barbie-themovie.com/images/tt_small.png" alt="Barbie theatres release">
             <p>
                 To live in Barbie Land is to be a perfect being in a perfect place. Unless you have a full-on existential crisis. Or you’re a Ken.
             </p>
@@ -167,7 +203,7 @@
                   <use xlink:href="#bootstrap"></use>
                 </svg>
               </a>
-              <span class="mb-3 mb-md-0 text-body-secondary">This project was coded by Karina Huizar and is open-sourced on GitHub.</span>
+              <span class="mb-3 mb-md-0 text-body-secondary">This project was coded by <a href="https://www.linkedin.com/in/karinahuizar/">Karina Huizar</a> and is open-sourced on <a href="https://github.com/karinahuizar">GitHub</a>.</span>
             </div>
   
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
@@ -205,6 +241,24 @@
             </ul>
           </footer>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script>
+        const tickets = () => {
+        let theatre = prompt("Which theatre would like tickets to?");
+        let ticketNumber = prompt("How many tickets would you like?")
+        let name = prompt("What is your first name?");
+        let email = prompt("What is your email?");
+
+        alert(
+          "Thanks " +
+            name +
+            "! We'll see you soon at " + theatre + "!"
+        );
+      }
+
+      let navTickets = document.querySelector("buy-tickets");
+      navTickets.addEventListener("click", tickets);
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
 </body>
 </html>
